@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./output.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet"> 
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="font-montserrat bg-fuchsia-50 h-full grid place-content-center">
+  <main class="flex flex-col md:flex-row max-w-2xl p-10 md:p-0">
+    <div class="grow shrink basis-0">
+      <img src="./images/image-product-mobile.jpg" class="md:hidden rounded-lg h-full" 0alt="">
+      <img src="./images/image-product-desktop.jpg"  class="hidden md:block rounded-lg h-full" alt="">
+    </div>
+    <div class="bg-white py-6 px-8 flex flex-col justify-around gap-6 grow shrink basis-0">
+      <p class="font-montserrat tracking-[0.4rem] opacity-60">PERFUME</p>
+    
+      <h2 class="font-fraunces text-3xl">Gabrielle Essence Eau De Parfum</h2>
+    
+      <p class="opacity-60">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+    
+      <div class="flex gap-6 items-center">
+        <p class="font-fraunces text-3xl text-blue-500">$149.99</p>
+        <p class="text-sm line-through opacity-50">$169.99</p>
+      </div>
+    
+      <button class="bg-blue-600 active:bg-blue-800 rounded-lg flex gap-5 p-3 text-white font-bold justify-center">
+        <img src="./images/icon-cart.svg" alt=""><span>Add to Cart</span>
+      </button>
+    </div>
+  </main>
+  
+  <footer class="attribution mt-6">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/invictus1032" target="_blank">Invictus1032</a>.
+  </footer>
+</body>
+</html>
