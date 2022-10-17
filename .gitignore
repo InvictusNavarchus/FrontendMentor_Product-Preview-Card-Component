@@ -17,3 +17,6 @@
 
 # Ignore Node Modules
 node_modules/
+
+# Ignore files
+product-preview-card-component-main.zip
