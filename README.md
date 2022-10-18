@@ -35,6 +35,11 @@ Users should be able to:
 #### Mobile
 ![Mobile Preview](./screenshots/mobile.png)
 
+### Links
+
+- Solution URL: [Github Repo](https://github.com/invictus1032/FrontendMentor_Product-Preview-Card-Component)
+- Live Site URL: [Netlify](https://fem-invictus1032-1.netlify.app/)
+
 ## My process
 
 ### Built with
